@@ -1,0 +1,54 @@
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  background: transparent;
+  padding: 2rem 5rem;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navLeft {
+  height: 5rem;
+  width: auto;
+  margin-right: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navLeft h1 {
+  font-size: 2.0rem;
+  padding-bottom: 5px;
+  color: white;
+  margin-left: 15px;
+}
+
+.navLeft img {
+  width: 80px;
+  height: auto;
+}
+
+.navRight {
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+.navRight > a:not(:last-child) {
+  padding-right: 1rem;
+}
+
+.logo {
+  width: auto;
+  height: 100%;
+}
+
+@media (max-width: 425px) {
+  header {
+    padding: 1rem 2rem;
+  }
+}

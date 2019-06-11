@@ -1,0 +1,41 @@
+.card {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+
+  justify-items: center;
+  align-items: center;
+
+  justify-self: center;
+  align-self: center;
+
+  text-align: center;
+
+  grid-auto-flow: row;
+
+  grid-gap: 1rem;
+
+  color: #fff;
+}
+.card .cardIcon {
+  width: auto;
+  height: 100px;
+}
+.card .cardDetails {
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.card .cardDetails .cardLine {
+  border-width: 0px;
+  height: 5px;
+  width: 80%;
+  /* background: #F66C48; */
+  background-image: linear-gradient(
+    to right,
+    #00BCCD 0%,
+    #0094D1 51%,
+    #006BC6 100%
+  );
+  margin: 0 auto;
+}
