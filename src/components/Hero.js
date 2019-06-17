@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Hero.css';
+import HeroImage from '../img/hero-item.png';
 import Button from './Button';
 
 class Hero extends Component {
@@ -7,6 +8,7 @@ class Hero extends Component {
     return (
       <section className='heroSection'>
         <div className='heroContent'>
+          <img className='heroImage' src={HeroImage} />
           <h1 className='heroContentTitle'>
             Erase your file headaches with <span className='magicalLine'>PDFToolKit</span>.
           </h1>
