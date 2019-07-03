@@ -60,5 +60,11 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+    <form style='display: none;' method="POST" action='/' name="emailresponse" data-netlify="true">
+      <input type="hidden" name="form-name" value="emailresponse" />
+      <input className="input" name='email' type="email" placeholder="email"/>
+      <button className='button small' type='submit' name='button'>Submit</button>
+    </form>
   </body>
 </html>
