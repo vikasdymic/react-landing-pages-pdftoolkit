@@ -26,7 +26,7 @@ class Footer extends Component {
             <img className='verisign' src={norton} alt="Verisign trusted" />
           </div>
           {/* <Button btnStyles='' buttonLabel='Get PDFToolKit Free' /> */}
-          <button className='button' onClick={this.toggleModal}>Get PDFToolKit Free</button>
+          <button className='button footer' onClick={this.toggleModal}>Get PDFToolKit Free</button>
           <Modal show={this.state.isOpen}
             onClose={this.toggleModal}>PDFToolKit</Modal>
         </div>
