@@ -21,8 +21,8 @@ class Header extends Component {
       <header>
         <nav>
           <div className='navLeft'>
-            <a href='https://thesulfurgroup.com'>
-              <img className='logo' src={logo} alt='The Sulfur Group' />
+            <a href=''>
+              <img className='logo' src={logo} alt='PDFToolKit' />
             </a>
             <h1>PDFToolKit</h1>
           </div>
