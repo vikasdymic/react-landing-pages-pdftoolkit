@@ -28,7 +28,7 @@ class Hero extends Component {
           This is an official Apple product and endorsed by Google! Normally $99, we are giving away PDFToolKit for free during our limited time offer. Having trouble opening files on your computer? Use PDFToolKit to open <i>ANY and EVERY</i> file you have on your computer. Keep up with your family members and don't miss out on any special moments. Open any file on your computer!
           </p>
           {/* <Button buttonStyle='large' buttonLabel='Download PDFToolKit' /> */}
-          <button className='large button' onClick={this.toggleModal}>Download PDFToolKit</button>
+          <button className='large button download' onClick={this.toggleModal}>Download PDFToolKit</button>
           <Modal show={this.state.isOpen}
             onClose={this.toggleModal}>PDFToolKit</Modal>
         </div>
