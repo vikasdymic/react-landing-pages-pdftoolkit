@@ -24,9 +24,9 @@ class Hero extends Component {
           <h1 className='heroContentTitle'>
             Convert your files to PDF <span className='magicalLine'>for free</span>.
           </h1>
-          <p className='heroContentCopy'>
-          Click on the 'download' button to download PDFToolKit. Start converting files quickly and easily with PDFToolKit.
-          </p>
+          {/*<p className='heroContentCopy'>
+          Click on the 'download' button to download PDFToolKit. Start converting files quickly and easily with PDFToolKit
+          </p>*/}
           {/* <Button buttonStyle='large' buttonLabel='Download PDFToolKit' /> */}
           <button className='large button download' onClick={this.toggleModal}>Download PDFToolKit</button>
           <Modal show={this.state.isOpen}
