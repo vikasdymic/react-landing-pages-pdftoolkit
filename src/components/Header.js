@@ -24,7 +24,7 @@ class Header extends Component {
             <a href=''>
               <img className='logo' src={logo} alt='PDFToolKit' />
             </a>
-            <h1>PDFToolKit</h1>
+            <h1><span className='magicalLine'>PDF</span> ToolKit</h1>
           </div>
           <div className='navRight'>
             {/* <Button buttonStyle='medium' buttonLabel='Install now' /> */}
