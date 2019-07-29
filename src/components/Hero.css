@@ -54,7 +54,49 @@
   width: 50%;
   max-width: 325px;
   height: auto;
+  grid-area: adobe;
+  align-self: center;
+  justify-self: center;
+}
+
+.heroContent__images {
+  display: grid;
+  grid-template:
+      'adobe top' 1fr
+      'adobe bottom' 1fr
+      / 1fr 1fr;
   margin-bottom: 2.8rem;
+}
+
+.heroImage__top,
+.heroImage__bottom {
+  align-self: center;
+  justify-self: center;
+  position: relative;
+}
+
+.heroImage__top,
+.heroImage__bottom {
+
+}
+
+.heroImage__top {
+  grid-area: top;
+}
+
+.heroImage__bottom {
+  grid-area: bottom;
+}
+
+.heroImage__pdf,
+.heroImage__arrow,
+.heroImage__doc {
+  width: 50px;
+  height: 50px;
+}
+
+.heroImage__arrow {
+  margin: 0 2rem;
 }
 
 @media (max-width: 425px) {
