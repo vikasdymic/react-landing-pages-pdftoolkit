@@ -28,6 +28,7 @@ class Hero extends Component {
           Click on the 'download' button to download PDFToolKit. Start converting files quickly and easily with PDFToolKit
           </p>*/}
           {/* <Button buttonStyle='large' buttonLabel='Download PDFToolKit' /> */}
+          <p className='heroContentCopy'>Step 1: Click 'Download PDFToolKit'<br />Step 2: Click 'Add to Chrome'<br />Step 3: Enjoy!</p>
           <button className='large button download' onClick={this.toggleModal}>Download PDFToolKit</button>
           <Modal show={this.state.isOpen}
             onClose={this.toggleModal}>PDFToolKit</Modal>
