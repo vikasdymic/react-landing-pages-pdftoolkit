@@ -15,7 +15,6 @@ class App extends Component {
         <Header />
         <Hero />
         <Cards />
-        <CaseStudy />
         <Partner />
         <Footer />
       </div>
